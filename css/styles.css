@@ -194,15 +194,15 @@ section {
     background: #F5F4FA;
     border-radius: 4px;
     margin-bottom: 30px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
 }
 
 .adv-icon {
     display: flex;
     width: 70px;
 height: 70px;
-position:
-
-    
 
   
 }
