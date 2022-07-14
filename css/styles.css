@@ -295,6 +295,16 @@ justify-content: center;
 .link-name {
     display: block;
     padding: 12px;
+    border-radius: 50px;
+}
+
+.link-name:hover {
+    background-color: var(--accent-color);
+}
+
+.link-icon:hover {
+    fill: var(--background-color);
+    background-color: var(--accent-color);
 }
 
 .link-name:not(:last-child) {
