@@ -191,6 +191,7 @@ section {
 }
 
 .adv-plate {
+    display: flex;
     background: #F5F4FA;
     border-radius: 4px;
     margin-bottom: 30px;
@@ -202,13 +203,8 @@ section {
 .adv-icon {
     display: flex;
     width: 70px;
-height: 70px;
-
-  
+    height: 70px;
 }
-
-
-
 
 .advantage-name {
     margin-bottom: 10px;
