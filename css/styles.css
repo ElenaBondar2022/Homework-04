@@ -288,9 +288,18 @@ section {
 
 .link {
 display: flex;
+justify-content: center;
 
 }
 
+.link-name {
+    display: block;
+    padding: 12px;
+}
+
+.link-name:not(:last-child) {
+   margin-right: 10px;
+}
 
 .team-name {
     margin-top: 30px;
