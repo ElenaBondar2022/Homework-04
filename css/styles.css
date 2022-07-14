@@ -189,7 +189,26 @@ section {
 .adv-item {
     width: calc((100% - 90px) / 4);
 }
- 
+
+.adv-plate {
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.adv-icon {
+    display: flex;
+    width: 70px;
+height: 70px;
+position:
+
+    
+
+  
+}
+
+
+
 
 .advantage-name {
     margin-bottom: 10px;
