@@ -286,6 +286,12 @@ section {
     margin-right: 30px;
 }
 
+.link {
+display: flex;
+
+}
+
+
 .team-name {
     margin-top: 30px;
     font-weight: 500;
