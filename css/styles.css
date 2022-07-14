@@ -119,6 +119,13 @@ section {
     color: var(--accent-color);
 }
 
+.list-icon {
+    display: inline-flex;
+    margin-right: 10px;
+    
+}
+
+
 /* Первая секция */
 .hero {
     padding-top: 200px;
