@@ -295,11 +295,17 @@ justify-content: center;
 .link-name {
     display: block;
     padding: 12px;
+    width: 44px;
+    height: 44px;
     border-radius: 50px;
 }
 
 .link-name:hover {
     background-color: var(--accent-color);
+}
+
+.link-icon {
+    fill: #AFB1B8;
 }
 
 .link-icon:hover {
