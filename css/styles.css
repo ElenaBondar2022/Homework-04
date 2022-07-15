@@ -333,6 +333,10 @@ justify-content: center;
 /* Пятая секция */
 
 .clients-title {
+    margin-bottom: 50px;
+}
+
+.clients-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -340,25 +344,27 @@ justify-content: center;
     color: var(--secondary-color);
 }
 
+.logo-clients {
+    display: flex;
+}
+
+.logo-name:not(:last-child) {
+    margin-right: 30px;
+}
+
 .logo-href{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
     width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-}
-
-.logo-icon {
-    display: flex;
     fill:#AFB1B8;
 }
 
 .logo-href:hover,
-.logo-href:focus {
-    
+.logo-href:focus { 
     border-color: var(--accent-color);
     fill: #2196F3;
 }
