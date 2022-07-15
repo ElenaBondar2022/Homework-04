@@ -292,7 +292,7 @@ justify-content: center;
 
 }
 
-.link-name {
+.link-href {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -302,7 +302,7 @@ justify-content: center;
     border-radius: 50%;
 }
 
-.link-name:hover {
+.link-href:hover {
     background-color: var(--accent-color);
 }
 
@@ -333,6 +333,16 @@ justify-content: center;
     line-height: 1.19;
     text-align: center;
     color: var(--basic-color);
+}
+
+/* Пятая секция */
+
+.clients-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: var(--secondary-color);
 }
 
 /* Футер */
