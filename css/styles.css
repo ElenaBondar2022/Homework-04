@@ -417,6 +417,10 @@ justify-content: center;
     color: var(--accent-color); 
 }
 
+.footer-footer {
+    display: flex;
+}
+
 
 /* Портфолио */
 
