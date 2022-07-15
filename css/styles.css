@@ -301,7 +301,6 @@ justify-content: center;
     height: 44px;
     border-radius: 50%;
     fill: #AFB1B8;
-    background: #FFFFFF;
 }
 
 .link-href:hover,
@@ -340,6 +339,30 @@ justify-content: center;
     text-align: center;
     color: var(--secondary-color);
 }
+
+.logo-href{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.logo-icon {
+    display: flex;
+    fill:#AFB1B8;
+}
+
+.logo-href:hover,
+.logo-href:focus {
+    
+    border-color: var(--accent-color);
+    fill: #2196F3;
+}
+
 
 /* Футер */
 
