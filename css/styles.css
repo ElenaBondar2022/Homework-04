@@ -300,20 +300,16 @@ justify-content: center;
     width: 44px;
     height: 44px;
     border-radius: 50%;
-}
-
-.link-href:hover {
-    background-color: var(--accent-color);
-}
-
-.link-icon {
     fill: #AFB1B8;
+    background: #FFFFFF;
 }
 
-.link-icon:hover {
-    fill: var(--background-color);
+.link-href:hover,
+.link-href:focus {
     background-color: var(--accent-color);
+    fill:#FFFFFF;
 }
+
 
 .link-name:not(:last-child) {
    margin-right: 10px;
