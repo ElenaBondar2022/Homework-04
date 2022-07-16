@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -21,20 +21,31 @@
     <header class="header">
         <div class="container header-box">
             <a href="./index.html" class="logo"><span class="item">Web</span>Studio</a>
-            <nav>
-                <ul class="nav">
-                    <li class="nav-item"><a href="index.html" class="nav-link">Студия</a></li>
-                    <li class="nav-item"><a href="portfolio.html" class="nav-link current">Портфолио</a></li>
-                    <li class="nav-item"><a href="#contact" class="nav-link">Контакты</a></li>
-                </ul>
-            </nav>
+        <nav>
+            <ul class="nav">
+                <li class="nav-item"><a href="index.html" class="nav-link">Студия</a></li>
+                <li class="nav-item"><a href="portfolio.html" class="nav-link current" >Портфолио</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Контакты</a></li>
+            </ul>
+        </nav>
             <ul class="list">
-                <li class="list-item"><a href="mailto:info@devstudio.com" class="nav-contact">info@devstudio.com</a>
+                <li class="list-item">
+                    <a href="mailto:info@devstudio.com" class="nav-contact"> 
+                        <svg class="list-icon" width="16" height="16">
+                            <use href="./images/icons.svg#envelope"></use>
+                        </svg> info@devstudio.com
+                    </a>
                 </li>
-                <li class="list-item"><a href="tel:+380961111111" class="nav-contact">+38 096 111 11 11</a></li>
+                <li class="list-item">
+                    <a href="tel:+380961111111" class="nav-contact">
+                        <svg class="list-icon" width="16" height="16">
+                            <use href="./images/icons.svg#smartphone"></use>
+                        </svg>+38 096 111 11 11
+                    </a>
+                </li>
             </ul>
         </div>
-    </header>
+        </header>
 
 
     <main>   
@@ -135,18 +146,54 @@
     </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer"> 
         <div class="container footer-box">
+         <div>
             <a href="./index.html" class="logo-footer"><span class="item">Web</span>Studio</a>
-            <address id="contact">
-                <ul class="contacts-list">
-                    <li class="contacts-item"><a href="https://goo.gl/maps/67UM73fhqofaFtAK9" target="_blank"
-                            rel="noreferrer noopener" class="contacts-address">г. Киев, пр-т Леси Украинки, 26</a></li>
-                    <li class="contacts-item"><a href="mailto:info@example.com" class="contacts-link">info@example.com</a>
-                    </li>
-                    <li class="contacts-item"><a href="tel:+380991111111" class="contacts-link">+38 099 111 11 11</a></li>
-                </ul>
+            <address id="contact">  
+            <ul class="contacts-list">     
+                <li class="contacts-item"><a href="https://goo.gl/maps/67UM73fhqofaFtAK9" target="_blank" rel="noreferrer noopener" class="contacts-address">г. Киев, пр-т Леси Украинки, 26</a></li>
+                <li class="contacts-item"><a href="mailto:info@example.com" class="contacts-link">info@example.com</a></li>
+                <li class="contacts-item"><a href="tel:+380991111111" class="contacts-link">+38 099 111 11 11</a></li> 
+            </ul>
             </address>
+         </div>   
+        
+
+        <div class="footer-footer">
+        <h2 class="footer-title">Присоединяйтесь</h2>
+        <ul class="link">
+            <li class="link-name">
+                <a href="https://www.instagram.com" target="_blank" rel="noreferrer noopener" class="link-href link-color">
+                    <svg class="link-icon" width="20" height="20">
+                        <use href="./images/icons.svg#instagram"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="link-name">
+                <a href="https://twitter.com" target="_blank" rel="noreferrer noopener" class="link-href link-color">
+                    <svg class="link-icon" width="20" height="20">
+                        <use href="./images/icons.svg#twitter"></use>
+                    </svg>
+                </a>
+            </li> 
+            <li class="link-name">
+                <a href="https://m.facebook.com" target="_blank" rel="noreferrer noopener" class="link-href link-color">
+                    <svg class="link-icon" width="20" height="20">
+                        <use href="./images/icons.svg#facebook"></use>
+                    </svg>
+                </a>
+            </li>  
+            <li class="link-name">
+                <a href="https://www.linkedin.com" target="_blank" rel="noreferrer noopener" class="link-href link-color">
+                    <svg class="link-icon" width="20" height="20">
+                        <use href="./images/icons.svg#linkedin"></use>
+                    </svg>
+                </a>
+            </li>    
+        </ul>
+        </div>
+
         </div>
     </footer>
     </body>
