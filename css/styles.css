@@ -295,14 +295,12 @@ section {
 .link {
 display: flex;
 justify-content: center;
-
 }
 
 .link-href {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 16px;
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -331,6 +329,7 @@ justify-content: center;
 }
 .team-job {
     margin-top: 10px;
+    margin-bottom: 16px;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -395,6 +394,7 @@ justify-content: center;
 
 .footer-box {
     display: flex;
+    align-items: baseline;
 }
 
 .contacts-link {
@@ -430,6 +430,7 @@ justify-content: center;
 }
 
 .footer-title {
+    margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
