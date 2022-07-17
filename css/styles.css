@@ -139,9 +139,11 @@ section {
     height: 600px;
     margin-left: auto;
     margin-right: auto;
-    background: rgba(47, 48, 58, 0.4);
     border: 1px solid #000000;
-    background-image: url(../images/Img.jpeg);
+    background-image: linear-gradient( 
+        to right,
+        #2F303A
+    ), url('../images/Img.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -318,6 +320,7 @@ justify-content: center;
    margin-right: 10px;
 }
 
+
 .team-name {
     margin-top: 30px;
     font-weight: 500;
@@ -432,12 +435,14 @@ justify-content: center;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    padding-bottom: 20px;
 
     color: #FFFFFF;
 }
 
 .link-color {
     fill:#FFFFFF;
+    margin-top: 0px;
 }
 
 /* Портфолио */
