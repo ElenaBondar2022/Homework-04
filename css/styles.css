@@ -114,12 +114,12 @@ section {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--basic-color);
-    fill:#757575;
+    fill: var(--basic-color);
 }
 .nav-contact:hover,
 .nav-contact:focus {
     color: var(--accent-color);
-    fill:#2196F3;
+    fill: var(--accent-color);
 }
 
 .list-icon {
@@ -136,10 +136,10 @@ section {
     text-align: center;
 
     max-width: 1600px;
-    height: 600px;
+    max-height: 600px;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid #000000;
+    background: #C4C4C4;
     background-image: linear-gradient( 
         to right,
         rgba(47, 48, 58, 0.4),
@@ -167,7 +167,7 @@ section {
     min-width: 200px;
     min-height: 50px;
 
-    background: #2196F3;
+    background: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border: var(--accent-color);
     
@@ -186,8 +186,8 @@ section {
     color: var(--accent-color);
 }
 
-/* Вторая секция */
-.hiden-title {
+/* ADVANTAGE */
+.advantage-title {
     display:none;
 }
 
@@ -195,17 +195,17 @@ section {
     display: flex;
 }
 
-.adv-item:not(:last-child) {
+.advantage-item:not(:last-child) {
     margin-right: 30px;
 }
 
-.adv-item {
+.advantage-item {
     width: calc((100% - 90px) / 4);
 }
 
-.adv-plate {
+.advantage-plate {
     display: flex;
-    background: #F5F4FA;
+    background: var(--grey-color);
     border-radius: 4px;
     margin-bottom: 30px;
     height: 120px;
@@ -213,7 +213,7 @@ section {
     justify-content: center;
 }
 
-.adv-icon {
+.advantage-icon {
     display: flex;
     width: 70px;
     height: 70px;
@@ -234,7 +234,8 @@ section {
     color: var(--basic-color);
 }
 
-/* Третяя секция */
+/* WORK */
+
 .work {
     padding-top: 0px;
 }
@@ -264,11 +265,12 @@ section {
     margin-right: 30px;
 }
 
-/* Четвертая секция */
+/* TEAM */
 .team {
     text-align: center;
     background-color: var(--grey-color);
 }
+
 .team-title {
     margin-bottom: 50px;
     font-weight: 700;
@@ -297,7 +299,7 @@ display: flex;
 justify-content: center;
 }
 
-.link-href {
+.link-page {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -308,12 +310,11 @@ justify-content: center;
     background: rgba(255, 255, 255, 0.1);
 }
 
-.link-href:hover,
-.link-href:focus {
+.link-page:hover,
+.link-page:focus {
     background-color: var(--accent-color);
-    fill:#FFFFFF;
-}
-
+    fill: var(--background-color);
+}       
 
 .link-name:not(:last-child) {
    margin-right: 10px;
@@ -336,13 +337,10 @@ justify-content: center;
     color: var(--basic-color);
 }
 
-/* Пятая секция */
+/* CLIENTS */
 
 .clients-title {
     margin-bottom: 50px;
-}
-
-.clients-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -350,15 +348,15 @@ justify-content: center;
     color: var(--secondary-color);
 }
 
-.logo-clients {
+.clients-list {
     display: flex;
 }
 
-.logo-name:not(:last-child) {
+.clients-item:not(:last-child) {
     margin-right: 30px;
 }
 
-.logo-href{
+.clients-ref {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -369,14 +367,14 @@ justify-content: center;
     fill:#AFB1B8;
 }
 
-.logo-href:hover,
-.logo-href:focus { 
+.clients-ref:hover,
+.clients-ref:focus { 
     border-color: var(--accent-color);
-    fill: #2196F3;
+    fill: var(--accent-color)
 }
 
 
-/* Футер */
+/* FOOTER */
 
 .logo-footer {
     font-family: 'Raleway', sans-serif;
@@ -437,14 +435,18 @@ justify-content: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
-    color: #FFFFFF;
+    color: var(--background-color);
 }
 
 .link-color {
-    fill:#FFFFFF;
+    fill: var(--background-color);
 }
 
 /* Портфолио */
+
+.hiden-title {
+    display: none;
+}
 
 .filter {
     display: flex;  
@@ -452,7 +454,7 @@ justify-content: center;
     margin-bottom: 50px;
 }
 
-.applications {
+.gallery-applications {
     padding: 6px 22px;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     background: var(--grey-color);
@@ -473,8 +475,8 @@ justify-content: center;
     margin-right: 8px;
 }
 
-.applications:hover,
-.applications:focus {
+.gallery-applications:hover,
+.gallery-applications:focus {
     background-color: var(--accent-color);
     color: var(--background-color);
 }
